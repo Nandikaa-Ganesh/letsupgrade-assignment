@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML CSS Zero to Hero - Day-3 FORMS</title>
+</head>
+<body>
+    <h3>Forms in HTML</h3>
+    <!--Forms specific tag <form> -->
+    <!-- <form action="submitted.html" method="get"> get method is used for small forms and data is shown in url -->
+    <form action="submitted.html" method="post">
+        <!--Input is in the form of text-->
+        <input type="text" placeholder="First Name" id="Firstname" required> <br><br>
+        <input type="text" placeholder="Last Name"> <br><br>
+        <input type="text" placeholder="username" maxlength="10"><br><br>
+        <input type="password"><br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob"><br>
+
+        <label for='gender'>Gender</label><br>
+
+        <input type="radio" name="courses" value="Male">Male<br>
+        <input type="radio" name="courses" value="Female">Female<br>
+        <input type="radio" name="courses" value="pnts">Prefer Not to say<br>
+
+        <input type="color">
+        <!-- id is like the roll no, it is used in backend-->
+        
+
+        <input type="submit" value="Send">
+        
+    </form>
+
+    <h3>What is this forms about?</h3>
+    <p>This form gets your First Name and Last Name, it gets your username in text form. It also gets your password and displays it in dot form as the type is declared as password. It is also notable that the username cannot exceed length 10 which is restricted is using maxlength attribute. The Date of Birth is also obtained as date type. Finally after the details are filled, "send" button is clicked</p>
+
+    <h2>Assignment by Nandikaa</h2>
+
+</body>
+</html>
